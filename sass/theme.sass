@@ -6,11 +6,13 @@
 // "theme_*.sass". All other files are loaded through bower.
 // ------------------------------------------------------------
 
+
 // Variable defaults set by Wyrm
 @import wyrm_core/wy_variables
 
 // Variable overrides that change coloring and fonts for this theme.
 @import theme_variables
+
 
 // bourbon.io framework
 @import bourbon
@@ -44,6 +46,9 @@
 @import wyrm_addons/pygments/pygments
 @import wyrm_addons/pygments/pygments_light
 
+//custom css
+@import custom_style
+
 // Theme specific styles. These are likely the files you want to edit.
 @import theme_breadcrumbs
 @import theme_layout
@@ -52,3 +57,4 @@
 @import theme_mathjax
 @import theme_font_awesome_compatibility
 @import theme_font_local
+

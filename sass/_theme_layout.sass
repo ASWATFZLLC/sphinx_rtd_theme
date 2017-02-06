@@ -76,7 +76,7 @@
     padding: $gutter / 4 $gutter
     font-weight: bold
     position: relative
-    background: $menu-vertical-background-color
+    background: $aswat-menu-vertical-background-color
     border: none
     border-bottom: solid 1px darken($menu-vertical-background-color, 20%)
     border-top: solid 1px darken($menu-vertical-background-color, 20%)
@@ -178,7 +178,7 @@
   margin-bottom: $gutter / 2
   input[type=text]
     width: 100%
-    border-radius: 50px
+    border-radius: 5px
     padding: 6px 12px
     border-color: darken($link-color, 5%)
   img
@@ -266,8 +266,9 @@
   overflow-x: hidden
   overflow-y: hidden
   min-height: 100%
-  background: $nav-background-color
+  background: $nav-custom-background
   z-index: $z-index-popover
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12)
 
 .wy-side-scroll
   width: $nav-desktop-width + 20px

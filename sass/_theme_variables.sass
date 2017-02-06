@@ -1,6 +1,11 @@
 // In here are varibles used for sphinx_rtd_theme, they either add to or overwrite the default ones
 // that are set in wyrm_core/wy_variables.sass. You'll find wyrm in bower_components if you're looking
 // for a reference.
+//custom variables
+$aswat:                                #ad3278
+$aswat-dark:                           #790448
+$nav-custom-background:                 #ffffff
+$aswat-menu-vertical-background-color:  #f8e7f1
 
 $font-awesome-dir:                    "../font/"
 $static-img:                          "../img/"
@@ -13,9 +18,27 @@ $text-viewcode-color:                 $green
 $text-codexref-color:                 $text-color
 
 // Definition list colors
-$class-color:                         $blue
+$class-color:                         $aswat
 $method-color:                        $gray
 
+// Links
+$link-color:                          $aswat
+$link-color-visited:                  $purple
+$link-color-hover:                    lighten($link-color, 8%) 
+$link-color-alt:                      hsl(33, 100%, 51%)
+// Buttons
+$button-background-color:             $green
+$button-neutral-background-color:     $table-stripe-color
+
+// Spinner
+$spinner-color:                       $link-color
+
+// Menu
+$menu-top-link-color:                 hsl(0, 0%, 95%)
+$menu-background-color:           	rgb(52, 49, 49)
+$menu-logo-color:                     $link-color
+$nav-desktop-width:                   300px
+$nav-desktop-position:                left
 // Footer colors
 $footer-color:                        $gray-light
 
@@ -38,9 +61,9 @@ $menu-link-active:                    $white
 
 // Navigation colors
 $nav-background-color:                $menu-background-color
-$nav-search-background-color:         $blue
+$nav-search-background-color:         $aswat
 $nav-search-color:                    $section-background-color
-$nav-link-color:                      $blue
+$nav-link-color:                      $aswat
 $nav-link-color-visited:              $purple
 $nav-link-color-hover:                lighten($nav-link-color, 6%) !default
 $nav-link-color-alt:                  hsl(33, 100%, 51%)
@@ -54,6 +77,6 @@ $sidebar-title-background-color:      $table-border-color
 $highlight-color:                     $yellow
 
 $base-font-family:                    "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif
-$custom-font-family:                  "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif
+$custom-font-family:                  "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif
 $custom-font-family2:                 Georgia, serif
 $code-font-family:                    Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
